@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'bottom_bar.dart';
+import 'cookie_page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -91,7 +94,7 @@ body: Container(
   )
         ],
       )),
-      floatingActionButton: FloatingActionButton(),
+      floatingActionButton: FloatingActionButton(onPressed: (){},),
 floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
 bottomNavigationBar: BottomBar(),
     );
